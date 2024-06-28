@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Screen Recorder</string>
+    <string name="settingsView_pageTitle">Settings</string>
+    <string name="settingsView_sectionTitleGeneral">General options</string>
+    <string name="settingsView_Permissions">Grant permissions</string>
 </resources>
