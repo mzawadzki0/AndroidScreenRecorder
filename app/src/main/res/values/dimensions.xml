@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="pageVerticalListMarginHorizontal">24</dimen>
-    <dimen name="pageVerticalListMarginVertical">24</dimen>
-    <dimen name="pageVertialListItemSpacer">4</dimen>
+    <dimen name="pageVerticalListMarginHorizontal">24dp</dimen>
+    <dimen name="pageVerticalListMarginVertical">24dp</dimen>
+    <dimen name="pageVerticalListItemSpacer">4dp</dimen>
 </resources>
