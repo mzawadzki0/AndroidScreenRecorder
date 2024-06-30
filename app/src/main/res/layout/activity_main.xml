@@ -33,23 +33,29 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <Space
-                    android:id="@+id/space"
-                    android:layout_width="0dp"
-                    android:layout_height="@dimen/pageVerticalListItemSpacer"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/pageVerticalListMarginHorizontal"
+                    android:layout_marginTop="@dimen/pageVerticalListItemSpacer"
                     android:text="@string/settingsView_Permissions"
                     android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/space" />
+                    app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+                <Button
+                    android:id="@+id/testButton"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/pageVerticalListMarginHorizontal"
+                    android:layout_marginTop="@dimen/pageVerticalListItemSpacer"
+                    android:layout_marginEnd="@dimen/pageVerticalListMarginHorizontal"
+                    android:text="Test button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
